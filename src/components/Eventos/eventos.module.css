@@ -1,0 +1,120 @@
+/*el contendeor de fondo */
+.eventos__fondo {
+  padding: 50px 0px;
+  background-color: rgba(168, 130, 130, 0.178);
+}
+
+/* TituloPrincipal */
+.eventos__cartel {
+  font-family: Harabara;
+  letter-spacing: 0.1em;
+  width: 100%;
+  height: auto;
+
+  font-weight: 300;
+  font-size: 2.9vw;
+}
+/*Liena de abajo */
+.eventos__linea {
+  margin-top: 10px;
+  height: 6px;
+  margin-bottom: 0px;
+  width: 25%;
+  border-radius: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+/*Fondo del slider*/
+.eventos__slider {
+  margin: 0;
+  margin-top: 10px;
+
+  padding-top: 2%;
+  background-color: rgba(223, 33, 33, 0);
+  padding-bottom: 100px;
+  min-height: 10%;
+  margin-bottom: -90px;
+}
+.eventos__slider img:hover {
+  box-shadow: 2px 2px #000000, 6px 6px #000000, 3px 3px #000000;
+  transform: translateX(-4px);
+  transition: 1s;
+}
+
+.eventos__slider img {
+  width: 60%;
+  height: auto;
+  margin-left: 27%;
+  border-radius: 20px;
+}
+.eventos__slider img:hover {
+  -webkit-animation: tiembla 0.1s infinite;
+}
+@-webkit-keyframes tiembla {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg) scale(0.8);
+  }
+  100% {
+    -webkit-transform: rotateZ(5deg);
+  }
+}
+.eventos__slider h2 {
+  align-items: center;
+  margin-top: 4%;
+  padding-left: auto;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(8, 8, 9);
+  font-family: Harabara;
+  font-size: 2.9vw;
+}
+.eventos__slider p {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 30px;
+
+  margin-right: 15%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(15, 16, 18);
+  font-size: 1.9vw;
+}
+/* para ceular el screen*/
+
+@media screen and (max-width: 720px) {
+  .eventos__cartel {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+  }
+  .eventos__slider p {
+    font-size: 12px;
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+  }
+  .eventos__slider h2 {
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+  }
+  .eventos__slider img {
+    width: 110%;
+    height: auto;
+    margin-left: 0%;
+  }
+  .eventos__fondo {
+    padding: 10px 0px;
+  }
+}
+
+/**/

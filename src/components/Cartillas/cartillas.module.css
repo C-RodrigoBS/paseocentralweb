@@ -1,0 +1,48 @@
+.fondo_cart{
+  background-color: aliceblue;
+}
+.my__swiper{
+width: 60%;
+}
+.cart__carta {
+  border-color: 5px solid black;
+  height: 10%;
+}
+
+.cart__viwer {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin-right: 50px;
+  margin-top: 15px;
+
+}
+.cart__viwer img {
+  width: 50%;
+  height: auto;
+  margin-top: 0px;
+}
+.cart__viwer a {
+  margin-top: 5px;
+  font-size: 1.4vw;
+  height: auto;
+}
+.cart__viwer:hover {
+  transform: scale(1.08);
+  color: #000000;
+  transition: 1s;
+}
+
+@media screen and (max-width: 720px) {
+  .cart__vi4wer img {
+    width: 40%;
+    height: auto;
+    margin-top: 5px;
+  }
+  .cart__viwer a {
+    margin-top: 5px;
+    font-size: 15px;
+    height: auto;
+  }
+  
+}
